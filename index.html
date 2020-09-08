@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+      <!-- CSS de Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <!-- Mi css -->
+      <link rel="stylesheet" href="style.css">
+    <title> Consultorios E&M </title>
+
+  </head>
+  <body>
+    <div class="container-fluid" id="contenedor">
+      <!-- -/////////////////////////////////////////////////// -->
+      <header class="row" id="cabecera">
+        <!-- Parte superior cabecera -->
+        <div class="col-12" id="ctop">
+          <!-- navbar -->
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" id="fono"> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a id="text-ctop" class="nav-link active" href="#">INICIO <span class="sr-only">(current)</span></a>
+                  <a id="text-ctop" class="nav-link" href="#about-info">Quienes somos?</a>
+                  <a id="text-ctop" class="nav-link" href="#redes-content">Contacto</a>
+                </div>
+              </div>
+            </nav>
+            <!-- fin navbar -->
+        </div>
+
+        <!-- Parte inferior cabecera -->
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#"><button id="boton" type="button" class="btn-outline-light rosa">Informacion</button></a>
+        </div>
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#turno-content"><button id="boton" type="button" class="btn-outline-light rosa">Turno</button></a>
+        </div>
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#about-prof"><button id="boton" type="button"  class="btn-outline-light rosa">Especialistas</button></a>
+        </div>
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#about-prof"><button id="boton" type="button"  class="btn-outline-light rosa">Profesionales</button></a>
+        </div>
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#about-info"><button id="boton" type="button" class="btn-outline-light rosa">Estudios</button></a>
+        </div>
+        <div class="col-sm-2" id="cbot">
+          <!-- OUTLINE BUTTON -->
+          <a href="#about-info"><button id="boton" type="button" class="btn-outline-light rosa">Analisis</button></a>
+        </div>
+      </header>
+      <!-- -/////////////////////////////////////////////////// -->
+      <section class="row" id="cuerpo">
+      <!-- Imagen Principal -->
+        <div class="col-12" id="departament-content">
+          <img src="img/pcesteto.jpg" id="dep-img" class="img-fluid">
+        </div>
+      <!-- Informacion about -->
+        <div class="col-md-12 blanco2" id="about-info">
+          <!-- ACCORDION -->
+            <div class="accordion" id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0" id="info-title">
+                    <button id="text-btn" class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      ¿Qué patologías atiende?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"  >
+                  <div class="card-body celeste">
+                    <ul>
+                      <li type="circle">Afasia</li>
+                      <li type="circle">Afasia progresiva primaria (APP)</li>
+                      <li type="circle">Traumatismo craneo encefálico (TEC)</li>
+                      <li type="circle">Accidente cerebrovascular (ACV) o stroke</li>
+                      <li type="circle">Demencias</li>
+                      <li type="circle">Disfonías</li>
+                      <li type="circle">Trastornos deglutorios o disfagia en adultos</li>
+                      <li type="circle">Trastornos del habla y del lenguaje en adultos</li>
+                      <li type="circle">Esclerosis múltiple</li>
+                      <li type="circle">Asperger</li>
+                      <li type="circle">Déficit intelectual del adulto</li>
+                      <li type="circle">Trastornos de la comunicación</li>
+                      <li type="circle">Dificultades en la pragmática del Lenguaje</li>
+                      <li type="circle">Disartria</li>
+                      <li type="circle">Apraxia del habla</li>
+                      <li type="circle">Parálisis de Cuerdas vocales</li>
+                      <li type="circle">Encefalitis</li>
+                      <li type="circle">Polineuropatía del paciente crítico</li>
+                      <li type="circle">Enfermedad de Parkinson</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0" id="info-title">
+                    <button id="text-btn" class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ¿Qué evaluaciones realiza?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body violeta">
+                    <ul>
+                      <li type="circle">Evaluación del Lenguaje en adultos</li>
+                      <li type="circle">Evaluación de la voz y el habla en adultos</li>
+                      <li type="circle">Evaluación de la deglución en adultos</li>
+                      <li type="circle">Evaluación pragmática en adultos</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0" id="info-title">
+                    <button id="text-btn" class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ¿Qué programas de tratamientos ofrece?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body celeste">
+                    Conformamos e intervenimos en el equipo interdisciplinario de las clínicas de ACV o stroke, de Neurorehabilitación,
+                    de Traumatismo de cráneo, de Epilepsia, de Esclerosis múltiple, de Demencias, de Déficit intelectual del adulto, de
+                    Enfermedad de Parkinson y de ADHD o déficit de atención en adultos. Ofrecemos el programa de estimulación del lenguaje
+                    para anomias (PELPA) destinado a personas con dificultad para evocar las palabras o con quejas subjetivas de lenguaje.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      <!-- Profesionales -->
+        <div class="col-lg-12 " id="about-prof">
+          <!-- Inicio carrusel -->
+            <div id="carouselIndi" class="carousel col-md-12 slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselIndi" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndi" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <!-- item carrusel -->
+                <div class="carousel-item active">
+                  <ul>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciada 1</h5>
+                          <a href="#" class="card-link">Matricula 430876</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciada 2</h5>
+                          <a href="#" class="card-link">Matricula 986001</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciada 3</h5>
+                          <a href="#" class="card-link">Matricula O98322</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Especialista 1</h5>
+                          <a href="#" class="card-link">Matricula 665432</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                  </ul>
+                </div>
+                <div class="carousel-item">
+                  <ul>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciada 4</h5>
+                          <a href="#" class="card-link">Matricula 342221</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Especialista 2</h5>
+                          <a href="#" class="card-link">Matricula 540812</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciado 5</h5>
+                          <a href="#" class="card-link">Matricula 541006</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                    <li>
+                      <!-- carta -->
+                      <div class="card" style="width: 17rem;">
+                        <img src="img/womanmedic.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Licenciado 6</h5>
+                          <a href="#" class="card-link">Matricula 099321</a>
+                        </div>
+                      </div>
+                      <!-- fin carta -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselIndi" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselIndi" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!-- fin carrusel -->
+        </div>
+      <!-- Solicitar turno -->
+        <div class="col-12" id="turno-content">
+          <!-- BLOCK LEVEL BUTTON -->
+          <!-- Abre el modal -->
+          <a href="#"><button id="boton" type="button" class="btn btn-lg rosa" data-toggle="modal" data-target="#staticBackdrop"><p id="text-turno">Solicite su Turno!</p></button></a>
+        </div>
+      <!-- Redes -->
+        <div class="col-12 " id="redes-content">
+          <ul>
+            <li> <a href="https://www.linkedin.com/in/francisco-quar%C3%B1olo-474132164/" target="_blank"><img src="img/icons/lnk.png" id="iconR"></a></li>
+            <li> <a href=""><img src="img/icons/fb.png" id="iconR"></a></li>
+            <li> <a href="https://twitter.com/frann_dev" target="_blank"><img src="img/icons/tw.png" id="iconR"></a></li>
+            <li> <a href=""></a><img src="img/icons/ins.png" id="iconR"></li>
+            <li> <a href="#form-contacto"><img src="img/icons/wp.png" id="iconR"></a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- -/////////////////////////////////////////////////// -->
+      <footer class="row" id="piePagina">
+        <div class="col-sm-6" id="pie1">
+          <p>Nuestras certificaciones:</p>
+          <ul>
+            <li><img id="logos" src="img/logo-progba.jpg" ></li>
+            <li><img id="logos" src="img/logo-samer.jpg" ></li>
+            <li><img id="logos" src="img/logo-peec.jpg" ></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 " id="pie2">
+          <p>Tel N1: 02615444333</p>
+          <p>Tel N2: 02615444333</p>
+          <p>Correo: eymconsultorios@gmail.com</p>
+          <p>©E&M Derechos reservados</p>
+        </div>
+      </footer>
+      <!-- -/////////////////////////////////////////////////// -->
+      <!-- Modal -->
+      <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content celeste">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Solicitud Turno</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="selector">Elije tu obra social y plan:</label>
+                  <select class="form-control"  id="selector" required>
+                    <option>Obra social 1</option>
+                    <option>Obra social 2</option>
+                    <option>Obra social 3</option>
+                    <option>Obra social 4</option>
+                    <option>Obra social 5</option>
+                  </select>
+                  <select class="form-control"  id="selector" required>
+                    <option>Plan 1</option>
+                    <option>Plan 2</option>
+                    <option>Plan 3</option>
+                    <option>Plan 4</option>
+                    <option>Plan 5</option>
+                  </select>
+                </div>
+                <div class="img-turno">
+                  <ul>
+                    <li> <img id="turno-f" src="img/esteto.jpg"> </li>
+                    <li> <img id="turno-f" src="img/elem1.jpg"> </li>
+                  </ul>
+                </div>
+                <div class="check-radios">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio" value="option1">
+                    <label class="form-check-label" for="radio">Consulta</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="radio" value="option2">
+                    <label class="form-check-label" for="radio">Tratamiento</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="selector">Especialidad</label>
+                  <select class="form-control"  id="selector">
+                    <option>Especialidad 1</option>
+                    <option>Especialidad 2</option>
+                    <option>Especialidad 3</option>
+                    <option>Especialidad 4</option>
+                    <option>Especialidad 5</option>
+                  </select>
+                  <label for="selector">Profesional</label>
+                  <select class="form-control"  id="selector">
+                    <option>Profesional 1</option>
+                    <option>Profesional 2</option>
+                    <option>Profesional 3</option>
+                    <option>Profesional 4</option>
+                    <option>Profesional 5</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputTel">Telefono</label>
+                    <input type="number" class="form-control" id="inputTel" minlenght="6" maxlength="24" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" minlenght="2" maxlength="32" placeholder="Los Lagares M o c12" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputDep">Departamento</label>
+                    <input type="text" class="form-control" id="inputDep" minlenght="3" maxlength="32" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputLocal">Localidad</label>
+                    <input type="text" class="form-control" id="inputDep" minlenght="3" maxlength="32" required>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputCPP">CPP</label>
+                    <input type="text" class="form-control" id="inputCPP" minlenght="4" maxlength="6" placeholder="5502" required>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn rosa" id="pedir">PEDIR TURNO</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
